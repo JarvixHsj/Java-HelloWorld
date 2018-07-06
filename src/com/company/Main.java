@@ -2,26 +2,28 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello World!");
-//        printA();
-        String name="爱慕课";
-        char sex='男';
-        int num=18;
-        double price=120.5;
-        double avg1 = num + price;
-        System.out.println(avg1);
-//        System.out.println(name);
-//        System.out.println(sex);
-//        System.out.println(num);
-//        System.out.println(price);
-//        System.out.println(isOK);
+    public static void main(String args[]) {
+        // 调用可变参数的方法
+        printMax(34, 3, 3, 2, 56.5);
+        printMax(new double[]{1, 2, 3});
     }
-    static int a = 1;
 
-    static void printA(){
-        System.out.print(a);
+    public static void printMax( double... numbers) {
+//        System.out.println(double);
+        System.out.println(numbers);
+//        if (numbers.length == 0) {
+//            System.out.println("No argument passed");
+//            return;
+//        }
+//
+//        double result = numbers[0];
+//
+//        for (int i = 1; i <  numbers.length; i++){
+//            if (numbers[i] >  result) {
+//                result = numbers[i];
+//            }
+//        }
+//        System.out.println("The max value is " + result);
     }
 
 

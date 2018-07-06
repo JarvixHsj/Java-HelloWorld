@@ -37,6 +37,10 @@ public class StaticModifier {
             new StaticModifier(i);
         }
         System.out.println("Created "+ getCount() + " instances");
+
     }
+
+
+
 
 }
