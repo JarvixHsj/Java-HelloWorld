@@ -1,9 +1,6 @@
 package HeadFirstJavaBook.exercise.Pages96;
 
-import com.company.Array;
-
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Scanner;
 
 public class SimpleDotComTestDrive {
